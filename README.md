@@ -17,7 +17,7 @@ Implement sql queries like described:
 9. Select all departments and amount of employees assigned per department
 Name column containing name of the department "depname".
 Name column containing employee amount "staff_size".
-10. Select all departments and values of total and average salary per department
+10. Select all departments and values of total and average salary per department. 
 Name column containing name of the department "depname".
 11. Select lastnames of all employees and lastnames of their managers if an employee has a manager.
 Name column containing employee's lastname "employee".
