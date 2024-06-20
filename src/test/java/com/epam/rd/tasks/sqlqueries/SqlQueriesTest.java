@@ -95,7 +95,6 @@ public class SqlQueriesTest {
         try (final Connection conn = connectionSource.createConnection();
              final Statement statement = conn.createStatement();
              final ResultSet rs = statement.executeQuery(sqlQueries.select03)) {
-
             Assert.assertEquals(
                     ImmutableSet.of(
                             "7698 - BLAKE - 2850.0",
@@ -106,7 +105,6 @@ public class SqlQueriesTest {
                     ),
                     new HashSet<>(collectResultSetAsIdLastSalaryLines(rs))
             );
-
         }
     }
 
